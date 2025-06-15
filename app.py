@@ -14,7 +14,7 @@ import json
 import time
 import random
 
-# Initialize session state for page navigation
+## Initialize session state for page navigation
 if 'current_page' not in st.session_state:
     st.session_state.current_page = 'welcome'
 
