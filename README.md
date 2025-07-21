@@ -54,3 +54,45 @@ This project requires the following dependencies:
 Build AI_Dependency from the source and install dependencies:
 
 1. **Clone the repository:**
+git clone https://github.com/Olawoyin007/AI_Dependency
+
+
+2. **Navigate to the project directory:**
+cd AI_Dependency
+
+
+3. **Install the dependencies:**
+
+**Using npm:**
+npm install
+
+
+**Using pip:**
+pip install -r requirements.txt
+
+
+---
+
+### Usage
+
+Run the project with:
+
+**Using npm:**
+npm start
+
+
+**Using pip:**
+python {entrypoint}
+
+---
+
+### Testing
+
+AI_Dependency uses the **{test_framework}** test framework. Run the test suite with:
+
+**Using npm:**
+npm test
+
+
+**Using pip:**
+pytest
