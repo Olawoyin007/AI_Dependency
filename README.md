@@ -85,16 +85,15 @@ text
 Run the project using one of the following options:
 
 - Using **npm**:
+  ```
+  npm start
+  ```
 
-npm start
-
-text
 
 - Using **pip**:
-
-python app.py
-
-text
+  ```
+  python app.py
+  ```
 
 > 🔁 Replace `app.py` with your actual Python entry-point file if it’s different (e.g., `main.py`, `run.py`, etc.).
 
@@ -105,16 +104,16 @@ text
 This project uses **pytest** (for Python) and `npm test` (for JavaScript parts, if any):
 
 - **Run tests with pip**:
+  ```
+  pytest
+  ```
 
-pytest
-
-text
 
 - **Run tests with npm**:
+  ```
+  npm test
+  ```
 
-npm test
-
-text
 
 > 🔬 Replace `pytest` with your preferred Python test runner if you’ve configured another (e.g., `unittest`, `nose`, etc.).
 
