@@ -49,50 +49,92 @@ This project requires the following dependencies:
 
 ---
 
+text
 ### Installation
 
-Build AI_Dependency from the source and install dependencies:
+1. **Clone the repository**
 
-1. **Clone the repository:**
--git clone https://github.com/Olawoyin007/AI_Dependency
+git clone https://github.com/Olawoyin007/AI_Dependency
 
+text
 
-2. **Navigate to the project directory:**
--cd AI_Dependency
+2. **Navigate to the project directory**
 
+cd AI_Dependency
 
-3. **Install the dependencies:**
+text
 
-**Using npm:**
--npm install
+3. **Install dependencies**
 
+- Using **npm**:
 
-**Using pip:**
--pip install -r requirements.txt
+  ```
+  npm install
+  ```
 
+- Using **pip**:
+
+  ```
+  pip install -r requirements.txt
+  ```
 
 ---
 
 ### Usage
 
-Run the project with:
+Run the project using one of the following options:
 
-**Using npm:**
--npm start
+- Using **npm**:
 
+npm start
 
-**Using pip:**
--python {entrypoint}
+text
+
+- Using **pip**:
+
+python app.py
+
+text
+
+> 🔁 Replace `app.py` with your actual Python entry-point file if it’s different (e.g., `main.py`, `run.py`, etc.).
 
 ---
 
 ### Testing
 
-AI_Dependency uses the **{test_framework}** test framework. Run the test suite with:
+This project uses **pytest** (for Python) and `npm test` (for JavaScript parts, if any):
 
-**Using npm:**
--npm test
+- **Run tests with pip**:
 
+pytest
 
-**Using pip:**
--pytest
+text
+
+- **Run tests with npm**:
+
+npm test
+
+text
+
+> 🔬 Replace `pytest` with your preferred Python test runner if you’ve configured another (e.g., `unittest`, `nose`, etc.).
+
+---
+
+## Contributing
+
+PRs and suggestions are welcome! If you'd like to contribute, please fork the repo and create a pull request. 🙂
+
+---
+
+## License
+
+This project is open-source under the **MIT License**. See `LICENSE` for details.
+
+---
+
+## Contact
+
+Built with ❤ by [@Olawoyin007](https://github.com/Olawoyin007)  
+For feedback, ideas, or collaborations, feel free to open an issue.
+
+---
